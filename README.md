@@ -77,6 +77,42 @@ $ go to http://0.0.0.0:1080
  - *PUT client*  http://localhost:4500/api/v1/client/idc
  - *DELETE client* http://localhost:4500/api/v1/client/idc
 
+##### - Request bodies
+Client
+```json
+{
+        "firstName": "",
+        "lastName": "",
+        "email": "",
+        "phone": "",
+        "birthDate": "",
+        "nationality": "",
+        "password" : ""
+        
+}
+```
+Apartment
+```json
+{
+    "name" : "",
+    "street" : "",
+    "zipCode": "",
+    "city" : ""
+        
+}
+```
+Room
+```json
+ {
+"number" : ,
+"area" : ,
+"price" : ,
+"Apartment" : ""
+}
+        
+```
+
+
 ### What i saw useful to add 
 ###### 1- Authentification for clients ( register / login ).
 ###### 2- Email confirmation after register / booking a room.
