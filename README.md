@@ -1,0 +1,1 @@
+# majd-test-CN
