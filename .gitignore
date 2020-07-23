@@ -1,1 +1,11 @@
 node_modules
+#
+dist
+build
+
+node_modules
+package-lock.json
+
+coverage
+*.lcov
+.nyc_output

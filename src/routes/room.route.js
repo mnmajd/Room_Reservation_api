@@ -1,4 +1,5 @@
 const express = require('express')
+const {verifyOrdinaryUser} = require ('../handlers/auth.handler')
 const router = express.Router()
 const {
   getRooms,
@@ -22,6 +23,8 @@ router
   .delete(deleteRoom)
 
 router.get('/:ida', getRoomsbyApartment)
-router.put('/book/:idr/:idc', bookRoom)
+// ___ Client can't book room unless he is loged in :) ___ //
+
+router.put('/book/:idr/:idc', verifyOrdinaryUser ,bookRoom)
 
 module.exports = router
