@@ -83,7 +83,7 @@ $ go to http://0.0.0.0:1080
 ###### 3- Grant access for booking API so that only users who are logged in can access to the endpoint thats why you should add a `Token` to the header of the request. 
 ## Unit testing
 ```sh
-$ npm run dev 
+$ npm run test 
 ```
 ## Code coverage
 ```sh
@@ -94,4 +94,4 @@ $ npm run cov
  - Deploy on Heroku
  - More unit tests to gain more code coverage
  - Create Docker Image and deploy it on a docker repository
- 
+
