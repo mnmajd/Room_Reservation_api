@@ -89,3 +89,9 @@ $ npm run dev
 ```sh
 $ npm run cov
 ```
+## Perspectives 
+
+ - Deploy on Heroku
+ - More unit tests to gain more code coverage
+ - Create Docker Image and deploy it on a docker repository
+ 
