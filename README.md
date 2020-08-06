@@ -1,8 +1,8 @@
-# Chez nestor technical test
+# Room reservation API.
 
 
 
-Build a based  REST api based solution for chez-nestor reservation solution .
+Based Node.js room reservation API.
 
  
 
