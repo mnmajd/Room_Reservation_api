@@ -21,7 +21,7 @@
   "homepage": "https://github.com/mnmajd/majd-test-CN#readme",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "jsonwebtoken": "^8.5.1",
     "md5": "^2.2.1",
     "mongoose": "^5.9.25",
